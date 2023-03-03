@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header awal */
+
+header{
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+    display: inline;
+}
+
+.jumbotron{
+    background-color: #0fa0b0;
+    padding: 20px 0;
+}
+
+.jumbotron .nonFormalPhoto{
+    border-radius: 50%;
+    border: 5px solid #fff;
+    width: 300px;
+}
+
+.jumbotron p{
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+nav{
+    padding: 20px 0;
+    background-color: #0d6efd;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Header akhir */
+
+/* Main awal */
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+    gap: 15px;
+    padding: 0 10px;
+}
+
+/* Article about me awal */
+.about-me{
+    width: 70%;
+    text-align: center;
+    box-shadow: 1px 1px 5px 2px #333;
+    padding: 60px 0;
+}
+
+.title-about-me, .title-aside{
+    margin-bottom: 20px;
+}
+
+/* Article about me akhir */
+
+/* Aside awal */
+
+.biodata{
+    width: 30%;
+    text-align: center;
+    box-shadow: 1px 1px 5px 2px #333;
+    padding: 60px 0;
+}
+
+.about-me img.formalPhoto, .biodata img.pasPhoto{
+    width: 200px;
+}
+
+aside.biodata table{
+    text-align: left;
+}
+
+/* Aside akhir */
+
+/* Article project awal */
+
+.project{
+    display: flex;
+    flex-direction: column;
+    padding:40px 0 40px 0;
+    text-align: center;
+    background-color: #0fa0b0;
+}
+
+.title-project{
+    margin: 20px 0;
+}
+
+.project-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-list a img{
+    width: 400px;
+}
+
+/* Article project akhir */
+
+/* Footer awal */
+
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0;
+    background-color: #0d6efd;
+}
+
+footer .list-media-social{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 18px;
+}
+
+.list-media-social li a img{
+    width: 40px;
+}
+
+/* Footer akhir */
