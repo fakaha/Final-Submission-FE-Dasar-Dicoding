@@ -76,6 +76,10 @@ nav ul li a{
     padding: 60px 0;
 }
 
+.about-me .about-me-content{
+    padding: 15px 10px;
+}
+
 .title-about-me, .title-aside{
     margin-bottom: 20px;
 }
@@ -97,6 +101,7 @@ nav ul li a{
 
 aside.biodata table{
     text-align: left;
+    padding: 15px 10px;
 }
 
 /* Aside akhir */
@@ -118,6 +123,7 @@ aside.biodata table{
 .project-list{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .project-list a img{
@@ -153,3 +159,30 @@ footer p{
 }
 
 /* Footer akhir */
+
+
+@media screen and (max-width: 768px) {
+    .about-me img.formalPhoto, .biodata img.pasPhoto{
+        width: 150px;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    .about-me{
+        width: 100%;
+    }
+
+    .biodata{
+        width: 100%;
+    }
+
+    .project-list{
+        gap: 20px;
+    }
+
+    .project-list a img{
+        width: 290px;
+    }
+}
